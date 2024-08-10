@@ -1,0 +1,13 @@
+train: directions/train/images
+val: directions/valid/images
+test: directions/test/images
+
+nc: 2
+names: ['left_arrow', 'right_arrow']
+
+#roboflow:
+#  workspace: workspace-3mgba
+#  project: directions-vv7hg
+#  version: 1
+#  license: CC BY 4.0
+#  url: https://universe.roboflow.com/workspace-3mgba/directions-vv7hg/dataset/1
